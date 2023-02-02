@@ -6,9 +6,7 @@ let div3 = Number((Math.floor(students / 3)));
 
 let oddNum = students % 3;
 
-
 let div2 = Math.floor(students / 2);
-
 
 let evenNum = students % 2;
 

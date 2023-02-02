@@ -7,7 +7,7 @@ if(ask % 3 === 0){
 console.log("Fizz")
 }  else if(ask % 5 === 0){
 console.log("Buzz")
-}else if(aks % 3 === 0 && ask % 5 === 0 ){
+}else if(ask % 3 === 0 && ask % 5 === 0 ){
     console.log("FizzBuzz")
 
 }
