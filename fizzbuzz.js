@@ -3,14 +3,19 @@ const prompt = require
 
 let ask = Number(prompt("Enter a number: "))
 
-if(ask % 3 === 0){
-console.log("Fizz")
-}  else if(ask % 5 === 0){
-console.log("Buzz")
-}else if(ask % 3 === 0 && ask % 5 === 0 ){
+if (ask % 15 === 0){
     console.log("FizzBuzz")
-
 }
+else if(ask % 3 === 0){
+console.log("Fizz")
+}
+else if(ask % 5 === 0){
+    console.log("Buzz")}
+   
+
+
+
+
 
 
 
